@@ -8,3 +8,11 @@
 git pull --rebase origin master
 ```
 
+## 2、fatal: unable to access 'https://github.com/tbwwlys/learningNotes.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+<font color=blue>解决办法：</font>
+
+```js
+git config --global http.sslVerify "false"
+```
+
